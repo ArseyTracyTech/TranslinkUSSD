@@ -13,7 +13,7 @@ def ussd_callback(request):
     response = "CON What would you like to do?\n"
     response += "1. Check my account\n"
     response += "2. Check my balance\n"
-    response += "3.Django works"
+    response += "3. Django works"
   elif text == '1':
     response = "END Your account number is 123456"
   elif text == '2':
